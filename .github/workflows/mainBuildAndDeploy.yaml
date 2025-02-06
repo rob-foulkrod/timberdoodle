@@ -49,7 +49,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: webapp
-          path: ./src/web/out
+          path: ./Timberdoodle.Web/out
 
   # deploy:
   #   runs-on: ubuntu-latest
